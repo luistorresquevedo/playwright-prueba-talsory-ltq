@@ -14,6 +14,7 @@ export class HomePage {
     // ========== MÉTODOS - NAVEGACIÓN ==========
     async irAlPrincipio() {
         await this.page.goto('https://test.interseguro.pe/soat-digital/');
+        await this.page.waitForLoadState('networkidle');
     }
 
     // ========== MÉTODOS - ACCIONES ==========
