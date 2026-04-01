@@ -51,7 +51,7 @@ Este proyecto es una prueba técnica de automatización para el portal SOAT Digi
 
 - Ejecutar todos los escenarios:
   ```bash
-  npm run test:cucumber
+  npm run cucumber
   ```
 - Ejecutar por tag (ejemplo):
   ```bash
